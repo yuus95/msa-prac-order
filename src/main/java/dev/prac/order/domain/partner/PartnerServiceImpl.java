@@ -25,7 +25,7 @@ public class PartnerServiceImpl implements PartnerService {
     @Transactional(readOnly = true)
     public PartnerInfo getPartnerInfo(String partnerToken) {
         // 1. partnerToken -> Partner
-        // Partner -> PartnerInfo ANd Return
+        // Partner -> PartnerInfo AND Return
         Partner partner = partnerReader.getPartner(partnerToken);
         return new PartnerInfo((partner));
     }

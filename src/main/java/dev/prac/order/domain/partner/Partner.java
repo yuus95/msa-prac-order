@@ -1,5 +1,6 @@
 package dev.prac.order.domain.partner;
 
+
 import dev.prac.order.common.utils.TokenGenerator;
 import dev.prac.order.domain.AbstractEntity;
 import lombok.Builder;
