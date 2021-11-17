@@ -11,6 +11,12 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 
+/**
+ * 내부에 DTO를 만들어놓으면
+ * 파트너 관련 DTO는 이부분만 보면된다.
+ *
+ */
+
 public class PartnerDto {
 
     @Getter
