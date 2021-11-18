@@ -20,6 +20,7 @@ import java.util.List;
  * 양방향 참조를 이용하여 조건 해결하기.
  */
 @Entity
+@Getter
 @NoArgsConstructor
 @Table(name = "items")
 public class Item extends AbstractEntity {
